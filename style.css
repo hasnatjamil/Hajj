@@ -14,8 +14,12 @@ body {
   color: #4d5974;
   display: flex;
   min-height: 100vh;
+  
 }
 
+h3 {
+  white-space: pre-line;
+}
 .container {
   margin: 0 auto;
   padding: 2rem;
@@ -107,6 +111,7 @@ body {
   font-weight: 300;
   margin: 2em 0;
   text-align: justify;
+  white-space: pre-line;
 }
 .accordion .accordion-content p img {
   width: 100%;
